@@ -12,7 +12,7 @@ spec:
     targetRevision: main
     helm:
       valueFiles:
-        - custom_values_1/values.yaml
+        - envs/dev/values.yaml
   sources: []
   project: default
   syncPolicy:
