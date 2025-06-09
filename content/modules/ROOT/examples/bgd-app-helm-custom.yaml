@@ -4,11 +4,11 @@ metadata:
   name: bgd-helm
 spec:
   destination:
-    namespace: $USER-bgdh
+    namespace: digital-bgd-helm
     server: 'https://kubernetes.default.svc'
   source:
     path: content/modules/ROOT/examples/bgd-helm-chart
-    repoURL: 'https://github.com/OpenShiftDemos/openshift-gitops-workshop'
+    repoURL: 'https://github.com/radudd/openshift-gitops-workshop'
     targetRevision: main
     helm:
       valueFiles:
